@@ -113,6 +113,7 @@
 // console.log(swap([11, 22, 33, 44], 0,2));
 
 //Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
-// function exchange(sumUAH,currencyValues,exchangeCurrency) {
-//     return sumUAH/exchangeCurrency+currencyValues
-// }
+function exchange(sumUAH,currencyValues,exchangeCurrency) {
+    return sumUAH/exchangeCurrency+currencyValues
+}
+console.log( exchange(10000,"USD",25))
